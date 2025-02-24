@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~6vJygZRZ#8guRPYzIPYhKRu99teHL60OE9SgP6YH1j2Z10CtzfkE",
+SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~GJgRAbTJ#K-KKILESW9C_NppGK6aY-bKkMdHpgzRgXBXSNiiM8JE",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -13,9 +13,9 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SUBZERO🤍*",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || "/",
+PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",
+BOT_NAME: process.env.BOT_NAME || "SHIREI RIYU",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",
 // type sticker pack name 
