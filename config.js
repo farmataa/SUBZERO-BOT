@@ -15,7 +15,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SUBZEROðŸ¤
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "LIN KUEI",
+BOT_NAME: process.env.BOT_NAME || "lin kuei",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",
 // type sticker pack name 
